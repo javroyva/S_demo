@@ -2,8 +2,8 @@
     "name": "Upload Cells IA algorithm results to Cells IA viewer",
     "description": "",
     "container-image": {
-      "image": "cellsia/upload_cellsia_results",
-      "type": ""
+      "image": "javroyva/s_demo",
+      "type": "singularity"
     },
     "command-line": "[CYTOMINE_HOST] [CYTOMINE_PUBLIC_KEY] [CYTOMINE_PRIVATE_KEY] [CYTOMINE_ID_PROJECT] [CYTOMINE_ID_SOFTWARE] [PROJECT_NAME]",
     "inputs": [
